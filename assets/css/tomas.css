@@ -1,0 +1,352 @@
+.popup { 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    padding-top: 20px;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+} 
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px; 
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px; /* Make the masthead heading the same height as the navigation */
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.admin{
+  max-width: 900px !important;
+}
+.sticky{
+  position: -webkit-sticky;
+position: sticky;
+top: 0;
+
+}
+.navigation-admin{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;  
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+.header {
+    margin-bottom: 30px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.logo{
+  width: 45px;
+}
+
+.deco-none{
+  text-decoration: none !important;
+}
+
+.m-r-20{
+  margin-right: 20px;
+}
+.m-r-15{
+  margin-right: 15px;
+}
+
+/* ===================================================== SIGN IN  */
+
+  /* stylelint-disable selector-no-qualifying-type, property-no-vendor-prefix */
+ 
+.form-home {
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+} 
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin .last {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.divider{
+  border: 1px solid gray; margin-bottom: 50px;
+}
+ 
+/* ==================================================================================faculty  */
+.a_menu{
+  padding: 8px 10px !important;
+}
+.a_menu:hover{
+  cursor: pointer !important;
+}
+
+.hr-style{
+  border: 1px solid #D3D3D3; 
+}
+.paragrah{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.paragraph{
+  margin: 0px !important;
+  padding: 0px !important;
+} 
+.icon_visibility{
+  width: 16px;
+}
+.buttons{
+  margin-bottom: 10px;
+}
+.float-r{
+  float: right;
+}
+.margin-r-20{
+  margin-right: 20px;
+}
+.margin-b-20{
+  margin-bottom: 20px;
+}
+.text-bold{
+  font-weight: bold !important;
+}
+
+
+/* ====================================================================================== Questionnaire  */
+.qstnnr_title{
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+.qstnnr_manage{
+  float: right; margin-top: -25px;
+}
+
+
+
+
+/* =================================================================================================== Questions  */
+
+.mrgn-b-2px{
+  margin-bottom: 2px;
+}
+
+.hover-primary:hover{
+  color: #337ab7;
+}
+
+.hover-success:hover{
+  color: #3c763d;
+}
+
+.hover-danger:hover{
+  color: #a94442;
+}
+ 
+/* ==================================================================================================== Student Index  */
+.p-error{
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.myimg{
+  float: left;
+max-width: 40px;
+width: 40%;
+margin-right: 20px;
+border-radius: 50%;
+}
+
+.btn-unique{
+  border:none;
+  color: #337ab7;
+  background-color: #f5f5f5 !important;
+}
+.btn-uniqueActive{
+  border:none; 
+  background-color: #f5f5f5 !important;
+}
+
+.comments{
+  max-height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.comment-form{
+  display: block;
+	width: 100%; 
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s
+}
+
+
+/* =========================================================================== DROP DOWN  */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {  
+  display: block;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: -130px !important;
+}
+
+.anchor {  
+  display: block;
+  width: 100%;
+}
+
+.numberOfQuestion:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+ 
+
+.pp{
+  border-radius: 50% !important;
+}
+
+.acc-row{
+  margin-bottom: 5px !important;
+}
+
+.cmmnt-pp{
+  height: 25px !important;
+  width: 25px !important; 
+  border-radius: 50%;
+}
+
+.col{
+  position: static !important;
+}
+
+.admin-row{
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+.view-post-center{
+  margin: 0 auto !important;  
+  margin-top: 20px !important;
+}
+@media (min-width: 768px) {
+  .view-post-center {   
+      margin-left: 25px !important;
+      width: 110% !important;
+  } 
+}
+
+.view-post-post{
+  margin: 0 auto;
+  max-width: 80%; 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s; 
+}
